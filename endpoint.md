@@ -1,0 +1,12 @@
+| メソッド  | エンドポイント  | 処理概要         | 認証有無 |
+| --------- | --------------- | ---------------- | -------- |
+| GET       | /health         | ヘルスチェック   | 無       |
+| POST      | /users          | ユーザー作成     | 無       |
+| POST      | /users/login    | ユーザーログイン | 無       |
+| GET       | /user           | ユーザー確認     | 有       |
+| PUT,PATCH | /user           | ユーザー更新     | 有       |
+| POST      | /articles       | 記事投稿         | 有       |
+| GET       | /articles       | 記事一覧取得     | 無       |
+| GET       | /articles/:slug | 記事単一取得     | 無       |
+| PUT,PATCH | /articles/:slug | 記事更新         | 有       |
+| DELETE    | /articles/:slug | 記事削除         | 有       |
